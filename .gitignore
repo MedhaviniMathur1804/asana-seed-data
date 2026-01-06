@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# SQLite output
+output/*.sqlite
+
+# Local verification / debugging scripts
+check_db.py
+verify_data.py
+prove_dynamic.py
+
+# OS files
+.DS_Store
+Thumbs.db
