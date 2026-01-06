@@ -77,11 +77,12 @@ Lifecycle fields (`created_at`, `due_date`, `completed_at`, `last_activity_at`) 
 
 ## How to Run
 
-1) Optional virtual environment:
-```bash
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-# source .venv/bin/activate  # macOS/Linux
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/asana-seed-data.git
+   cd asana-seed-data
 ```
 
 2) Install dependencies:
