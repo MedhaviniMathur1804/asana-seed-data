@@ -77,20 +77,19 @@ Lifecycle fields (`created_at`, `due_date`, `completed_at`, `last_activity_at`) 
 
 ## How to Run
 
-## How to Run
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/asana-seed-data.git
-   cd asana-seed-data
+```bash
+git clone https://github.com/<your-username>/asana-seed-data.git
+cd asana-seed-data
 ```
 
-2) Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3) Generate the dataset from the project root:
+3. Generate the dataset from the project root:
 ```bash
 python -m src.main
 ```
